@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #050529;
+}
+.titulo {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 3.25rem;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    font-size: 3.375rem;
+    font-family: 'WindSong', cursive;
+    text-align: center;
+}
+h4 {
+    font-family: 'WindSong', cursive;
+    font-size: 50px;
+}
+img {
+    background-color: transparent !important;
+}
+
+.corazon  {
+    width: 40px;
+    animation: heartbeat 1s infinite;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.3);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.linea {
+    display: flex;
+    justify-content: center;
+}
+.linea div{
+    width: 150px;
+    margin-top:30px ;
+}
+
+.fecha{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#countdown {
+    font-size: 44px;
+    color: #b3a5a5;
+    margin-top: 20px;
+    height: 100px;
+}
+
+.flecha {
+    background-color: white;
+    animation: moverDesdeArriba 1s ease-in-out infinite;
+    margin-top: 60px;
+}
+
+@keyframes moverDesdeArriba {
+    0% {
+        transform: translateY(-100%);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+.contador {
+    margin-top: 20px;
+}
+.calendario {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 8.75rem;
+    margin-bottom: 80px;
+    
+}
+.calendario img {
+    width: 40px;
+    margin-right: 30px;
+    
+}
+.boton-blanco {
+    background-color: #4668d8; /* Fondo blanco */
+    color: #333; /* Texto de color oscuro */
+    border: 2px solid #333; /* Borde sólido oscuro */
+    padding: 10px 20px; /* Relleno interno */
+    text-decoration: none; /* Quita subrayado enlaces (por defecto en algunos navegadores) */
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Agrega transiciones suaves */
+}
+
+/* Estilos al pasar el mouse sobre el botón */
+.boton-blanco:hover {
+    background-color: #333; /* Fondo oscuro al pasar el mouse */
+    color: #fff; /* Texto blanco al pasar el mouse */
+    border-color: #fff; /* Borde blanco al pasar el mouse */
+}
+
+
+.copa {
+    width: 70px;
+}
+.salon {
+    margin: 30px;
+}
+.flecha2 {
+    background-color: white;
+    animation: moverDesdeArriba 1s ease-in-out infinite;
+    margin-top: 60px;
+    margin-top: 90px;
+}
+
+.faltan {
+    text-align: center;
+}
