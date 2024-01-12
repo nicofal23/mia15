@@ -106,8 +106,9 @@ img {
 }
 .boton-blanco {
     background-color: #4668d8; /* Fondo blanco */
-    color: #333; /* Texto de color oscuro */
+    color: #fcf8f8; /* Texto de color oscuro */
     border: 2px solid #333; /* Borde sólido oscuro */
+    border-radius: 50%;
     padding: 10px 20px; /* Relleno interno */
     text-decoration: none; /* Quita subrayado enlaces (por defecto en algunos navegadores) */
     font-size: 16px; /* Tamaño del texto */
@@ -118,8 +119,8 @@ img {
 
 /* Estilos al pasar el mouse sobre el botón */
 .boton-blanco:hover {
-    background-color: #333; /* Fondo oscuro al pasar el mouse */
-    color: #0c0c85; /* Texto blanco al pasar el mouse */
+    background-color: #ffffff; /* Fondo oscuro al pasar el mouse */
+    color: #000008; /* Texto blanco al pasar el mouse */
     border-color: black; /* Borde blanco al pasar el mouse */
 }
 
@@ -136,7 +137,15 @@ img {
     margin-top: 50px;
     width: 30px;
 }
-
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    background-color: #ffffff; /* Fondo oscuro al pasar el mouse */
+    color: #000008; /* Texto blanco al pasar el mouse */
+    border-color: black; /* Borde blanco al pasar el mouse */
+}
 .faltan {
     text-align: center;
 }
