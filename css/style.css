@@ -72,6 +72,7 @@ img {
     background-color:#0c0c85;
     animation: moverDesdeArriba 1s ease-in-out infinite;
     margin-top: 60px;
+    width: 30px;
 }
 
 @keyframes moverDesdeArriba {
@@ -132,10 +133,21 @@ img {
 .flecha2 {
     background-color: #0c0c85;
     animation: moverDesdeArriba 1s ease-in-out infinite;
-    margin-top: 60px;
-    margin-top: 90px;
+    margin-top: 50px;
+    width: 30px;
 }
 
 .faltan {
     text-align: center;
+}
+
+.iframe {
+    border: 0;
+    width: 90%;
+    margin: 20px;
+}
+.mapa {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
 }
