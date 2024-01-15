@@ -45,3 +45,6 @@ function agregarEventoAlCalendario() {
 
     window.open(googleCalendarUrl, '_blank');
 }
+
+
+

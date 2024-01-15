@@ -164,3 +164,29 @@ a:hover {
 .menu {
     text-align: center;
 }
+
+
+.fondo {
+    position: relative;
+    height: 20vh;
+    overflow: hidden;
+    background-attachment: fixed;
+  }
+  
+  .fondo img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+    will-change: transform;
+  }
+  
+  .parallax {
+    transition: transform 1s ease-in-out;
+  }
+  
+  .fondo:hover img {
+    transform: translate(-50%, -80%);
+  }
