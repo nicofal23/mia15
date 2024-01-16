@@ -166,27 +166,26 @@ a:hover {
 }
 
 
-.fondo {
-    position: relative;
-    height: 20vh;
-    overflow: hidden;
-    background-attachment: fixed;
-  }
-  
-  .fondo img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+/* Agrega una clase al elemento section para estilizar la imagen de fondo */
+.parallax {
+    background-image: url('../assets/icon/1.jpg'); /* Reemplaza con la ruta correcta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Esto fija la imagen de fondo */
     width: 100%;
-    height: auto;
-    will-change: transform;
-  }
-  
-  .parallax {
-    transition: transform 1s ease-in-out;
-  }
-  
-  .fondo:hover img {
-    transform: translate(-50%, -80%);
-  }
+    height: 23vh;
+}
+
+/* Ajusta el contenido dentro de la sección para que sea legible */
+.parallax h1 {
+    color: #ffffff;
+    font-size: 3em;
+    text-align: center;
+    padding: 50px;
+}
+.mapita {
+    width: 100%;
+}
+h6 {
+    display: none;
+}
