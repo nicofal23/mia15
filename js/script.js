@@ -28,7 +28,7 @@ const countdownInterval = setInterval(function() {
 
 
 //calendar
-
+ 
 function agregarEventoAlCalendario() {
     const evento = {
         title: 'Cumple 15 Mia Antebi',

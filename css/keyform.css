@@ -133,7 +133,7 @@
     /* Estilos para la sección parallax */
     perspective: 1000px;
     height: 200px; /* Ajusta según tus necesidades */
-}
+} 
 
 .parallax div {
     /* Estilos para el contenido dentro de la sección parallax */
