@@ -1,5 +1,5 @@
 // Define la fecha objetivo (24 de abril a las 20:00 horas)
-const targetDate = new Date("April 24, 2024 20:00:00").getTime();
+const targetDate = new Date("April 27, 2024 20:00:00").getTime();
 
 // Actualiza el contador cada segundo
 const countdownInterval = setInterval(function() {
