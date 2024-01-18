@@ -27,7 +27,7 @@ const countdownInterval = setInterval(function() {
 
 
 
-//calendar 
+//calendar  
  
 function agregarEventoAlCalendario() {
     const evento = {
