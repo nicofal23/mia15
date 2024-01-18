@@ -95,8 +95,8 @@ img {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 8.75rem;
-    margin-bottom: 80px;
+    margin-top: 85px;
+    margin-bottom: 20px;
     
 }
 .calendario img {
@@ -194,4 +194,38 @@ h6 {
 
 .imagenmenu {
     margin: 50px;
+}
+.carousel{
+    width: 50%;
+}
+
+.caruel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.fechaabril {
+    font-size: 40px;
+}
+
+
+h1 {
+    padding: 30px;
+    font-size:50px ;
+}
+h4 {
+    font-size: 40px;
+}
+
+
+.opcionAutocompletado {
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-top: -1px;
+}
+
+.opcionAutocompletado:hover {
+    background-color: #f1f1f1;
 }

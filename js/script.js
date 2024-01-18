@@ -62,3 +62,8 @@ function parallaxEffect() {
 // Agrega un event listener al evento de scroll
 window.addEventListener('scroll', parallaxEffect);
 
+
+
+
+//spotify
+
