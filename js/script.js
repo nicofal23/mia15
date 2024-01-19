@@ -70,7 +70,7 @@ window.addEventListener('scroll', parallaxEffect);
 document.addEventListener('DOMContentLoaded', function() {
     var container = document.getElementById('container');
 
-    for (var i = 0; i < 1200; i++) {
+    for (var i = 0; i < 500; i++) {
         var blob = document.createElement('div');
         blob.className = 'blob';
         blob.style.animationDelay = Math.random() * 60 + 's';
