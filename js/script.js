@@ -67,3 +67,15 @@ window.addEventListener('scroll', parallaxEffect);
 
 //spotify
 
+document.addEventListener('DOMContentLoaded', function() {
+    var container = document.getElementById('container');
+
+    for (var i = 0; i < 1200; i++) {
+        var blob = document.createElement('div');
+        blob.className = 'blob';
+        blob.style.animationDelay = Math.random() * 60 + 's';
+        blob.style.left = Math.random() * 100 + 'vw';
+        container.appendChild(blob);
+    }
+});
+
