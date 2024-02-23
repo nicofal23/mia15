@@ -168,7 +168,7 @@ a:hover {
 
 /* Agrega una clase al elemento section para estilizar la imagen de fondo */
 .parallax {
-    background-image: url('../assets/icon/mia1.jpeg'); /* Reemplaza con la ruta correcta de tu imagen de fondo */
+    background-image: url('../assets/icon/mia4.jpeg'); /* Reemplaza con la ruta correcta de tu imagen de fondo */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
