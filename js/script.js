@@ -51,7 +51,7 @@ function agregarEventoAlCalendario() {
 var parallaxSpeed = 0.5;
 
 // Función para manejar el efecto parallax al hacer scroll
-function parallaxEffect() {
+function parallaxEffect() { 
     var scrolled = window.scrollY;
     var parallax = document.querySelector('.parallax');
 
