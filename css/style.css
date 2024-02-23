@@ -251,7 +251,9 @@ h1 {
     margin-top: 10px;
 }
 
-
+.musica {
+    display: flex;
+}
 
 
 
