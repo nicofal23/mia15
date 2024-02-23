@@ -258,6 +258,7 @@ h1 {
 
 @media (max-width: 768px) {
     .parallax {
+        background-image: url('../assets/icon/mia1.jpeg');
         width: 100%;
         height: 150px !important; 
     }
