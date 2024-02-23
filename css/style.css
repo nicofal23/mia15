@@ -171,8 +171,9 @@ a:hover {
     background-image: url('../assets/icon/mia4.jpeg'); /* Reemplaza con la ruta correcta de tu imagen de fondo */
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: top !important;
     background-position: center;
-    background-attachment: fixed; /* Esto fija la imagen de fondo */
+    background-attachment: scroll;
     width: 90%;
     height: 500px !important;
 }
