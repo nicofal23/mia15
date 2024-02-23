@@ -1,4 +1,4 @@
-// Define la fecha objetivo (24 de abril a las 20:00 horas)
+// Define la fecha objetivo (27 de abril a las 20:00 horas)
 const targetDate = new Date("April 27, 2024 20:00:00").getTime();
 
 // Actualiza el contador cada segundo
@@ -32,9 +32,9 @@ const countdownInterval = setInterval(function() {
 function agregarEventoAlCalendario() {
     const evento = {
         title: 'Cumple 15 Mia Antebi',
-        location: 'Ubicación del Evento',
-        description: 'Descripción del Evento',
-        start: new Date('2024-04-22T20:00:00'),
+        location: 'G. del Cossio Bis 2198, Bis, S2006GBJ, Santa Fe',
+        description: 'Cumpleaños XV Mia ',
+        start: new Date('2024-04-27T20:00:00'),
         end: new Date('2024-04-23T00:00:00'),
     };
 
