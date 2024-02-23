@@ -79,3 +79,16 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
+function enviarCancion() {
+    // Obtener el valor del input
+    var cancion = document.getElementById("songInput").value;
+
+    // Construir el mensaje con la canción
+    var mensaje = encodeURIComponent("Hola Mia, no puede faltar esta canción para tus XV: " + cancion);
+
+    // Construir la URL de WhatsApp con el número y el mensaje
+    var url = "https://api.whatsapp.com/send?phone=+5493417238582&text=" + mensaje;
+
+    // Abrir la ventana de WhatsApp en una nueva pestaña
+    window.open(url, "_blank");
+}
