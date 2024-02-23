@@ -174,7 +174,7 @@ a:hover {
     background-position: center;
     background-attachment: fixed; /* Esto fija la imagen de fondo */
     width: 90%;
-    height: 60vh;
+    height: 500px !important;
 }
 
 /* Ajusta el contenido dentro de la sección para que sea legible */
@@ -258,6 +258,7 @@ h1 {
 @media (max-width: 768px) {
     .parallax {
         width: 100%;
-      height: 23vh;
+        height: 300px !important;
+        background-size: contain;
     }
   }
