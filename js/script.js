@@ -83,6 +83,13 @@ function enviarCancion() {
     // Obtener el valor del input
     var cancion = document.getElementById("songInput").value;
 
+    // Verificar si el campo está vacío
+    if (cancion.trim() === "") {
+        // Mostrar alerta usando SweetAlert
+        swal("Oops!", "Por favor agrega una canción para poder enviarla.", "error");
+        return; // Salir de la función si el campo está vacío
+    }
+
     // Construir el mensaje con la canción
     var mensaje = encodeURIComponent("Hola Mia, no puede faltar esta canción para tus XV: " + cancion);
 
