@@ -255,7 +255,9 @@ h1 {
     display: flex;
 }
 
-
+.dresscode {
+    display: flex;
+}
 
 
 @media (max-width: 768px) {
