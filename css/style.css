@@ -168,7 +168,7 @@ a:hover {
 
 /* Agrega una clase al elemento section para estilizar la imagen de fondo */
 .parallax {
-    background-image: url('../assets/icon/1.jpg'); /* Reemplaza con la ruta correcta de tu imagen de fondo */
+    background-image: url('../assets/icon/mia4.jpeg'); /* Reemplaza con la ruta correcta de tu imagen de fondo */
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Esto fija la imagen de fondo */
@@ -228,3 +228,23 @@ h1 {
 .opcionAutocompletado:hover {
     background-color: #f1f1f1;
 }  
+.miafoto {
+    width:90%;
+    height: auto;
+}
+
+.boton-blanca {
+    background-color: #4668d8;
+    color: #fcf8f8;
+    border: 2px solid #333;
+    border-radius: 50%;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.margenmusica {
+    margin-top: 10px;
+}
