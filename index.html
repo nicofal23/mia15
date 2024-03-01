@@ -200,9 +200,12 @@
             </div>
             <div class="Musicalist">
                 <h2>Anotála 👇</h2>
-                <input type="text" id="songInput" placeholder="La morocha - la T y la M">
+                <input type="text" id="textoInput" placeholder="Escribe una canción...">
                 <div class="margenmusica">
-                    <button class="boton-blanco" onclick="enviarCancion()">Enviar canción</button>
+                    <button id="enviarBtn" class="boton-blanco">Enviar</button>
+                </div>
+                <div class="Musicalist" style="margin: 10px;">
+                    <a href="./pages/mia.html" ><button class="boton-blanco">Ingreso cumpleañera</button></a>
                 </div>
             </div>
             
@@ -217,13 +220,14 @@
         </div> 
     </main>
     <footer>  
-            <h2 class="creador">Creado por <a href="https://www.nicolasdev.com.ar" target="_blank">Nicolás Falciglio</a></h2>
+        <h2 class="creador">Creado por <a href="https://www.nicolasdev.com.ar" target="_blank">Nicolás Falciglio</a></h2>   
     </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://apis.google.com/js/api.js"></script>
+    <script type="module" src="./js/firebase.js"></script>
     <script src="./js/script.js"></script>
 </body> 
 </html>

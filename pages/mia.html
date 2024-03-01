@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/modal.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div class="ingreso" >
+            <label for="nombreUsuario">Ingrese usuario:</label>
+            <input type="text" id="nombreUsuario">
+            <label for="contrasena">Ingrese contraseña:</label>
+            <input type="password" id="contrasena">
+            <button id="iniciarSesionBtn">Iniciar Sesión</button>
+        </div>
+
+        <div id="modal" style="display: none;">
+            <div id="contenidoModal">
+                <h1>Lista de canciones recomendadas</h1>
+                <p id="mostrarLista"></p>
+            </div>
+        </div>
+    </div>
+    <button id="enviarBtn" class="boton-blanco" style="display: none;">Enviar</button>
+    <script type="module" src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,191 @@
+.modal {
+    display: block; /* Por defecto, el modal está oculto */
+    position: fixed; /* Se posiciona encima del contenido */
+    z-index: 1; /* Indice de apilamiento para asegurarse de que el modal esté encima del contenido */
+    left: 0;
+    top: 0;
+    width: 100%; /* Toma todo el ancho de la pantalla */
+    height: 100%; /* Toma toda la altura de la pantalla */
+    overflow: auto; /* Agrega desplazamiento si el contenido es demasiado grande */
+    background-color: rgba(0,0,0,0.4); /* Fondo oscuro semitransparente */
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* Centra verticalmente el modal */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Ancho del modal */
+    flex-direction: column;
+    display: flex;
+}
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .ingreso {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.ingreso {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.ingreso label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.ingreso input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.ingreso button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ingreso button:hover {
+    background-color: #0056b3;
+}
+
+#modal {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+        width: 300px;
+    }
+
+    #contenidoModal {
+        text-align: center;
+    }
+
+    #contenidoModal h1 {
+        margin-top: 0;
+    }
+
+    #mostrarLista {
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    #mostrarLista li {
+        list-style-type: disc;
+        margin-bottom: 5px;
+    }
+    
+    #modal {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+      width: 300px;
+  }
+
+  #contenidoModal {
+      text-align: center;
+  }
+
+  #contenidoModal h1 {
+      margin-top: 0;
+  }
+
+  #mostrarLista {
+      text-align: left;
+      padding-left: 20px;
+      list-style: none;
+  }
+
+  #mostrarLista li {
+      margin-bottom: 5px;
+  }
+
+  .mensaje-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .mensaje-item p {
+      margin: 0;
+  }
+
+  .mensaje-item button {
+      background-color: #ff4d4d;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 5px 10px;
+      cursor: pointer;
+  }
+
+  .mensaje-item button:hover {
+      background-color: #cc0000;
+  }
+
+  #eliminarListaButton {
+      margin-top: 10px;
+      background-color: #ff4d4d;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 5px 10px;
+      cursor: pointer;
+  }
+
+  #eliminarListaButton:hover {
+      background-color: #cc0000;
+  }

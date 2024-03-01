@@ -273,3 +273,9 @@ h1 {
         font-size: 23px;
         font-family: cursive;
 }
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
